@@ -3,7 +3,7 @@ on:
   pull_request:
 
 jobs:
-  sayHelloWorld:
+  LabelPR:
     runs-on: ubuntu-latest
     steps:
       - uses: lisadean/the-sorting-hat@v1
