@@ -1,0 +1,13 @@
+name: Say Hello World
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  sayHelloWorld:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lisadean/the-sorting-hat
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
