@@ -8,6 +8,6 @@ jobs:
   sayHelloWorld:
     runs-on: ubuntu-latest
     steps:
-      - uses: lisadean/the-sorting-hat
+      - uses: lisadean/the-sorting-hat@replace-original-bot
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
