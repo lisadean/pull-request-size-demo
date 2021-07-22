@@ -1,4 +1,4 @@
 # Mock data
-**mocks.ts pr-size-ignore=true
-**mock-data.ts pr-size-ignore=true
-**mock-data.txt pr-size-ignore=true
+**/*mocks.ts pr-size-ignore=true
+**/*mock-data.ts pr-size-ignore=true
+**/*mock-data.txt pr-size-ignore=true
